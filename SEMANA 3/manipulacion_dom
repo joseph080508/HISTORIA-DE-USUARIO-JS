@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de notas</title>
+</head>
+<body>
+
+    <h1>Lista de tareas</h1>
+    <p>Escribe una nota y presiona agregar</p>
+
+    <input id="input-text" type="text" placeholder="Agrega una nota">
+    <button id="btn-agregar">Agregar</button>
+
+    <ul id="listaNotas"></ul>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
